@@ -1,5 +1,24 @@
 <div align="center">
   <h1>s1: Simple test-time scaling</h1>
+  <p>Minimal recipe for test-time scaling and strong reasoning performance matching o1-preview with just 1,000 examples & budget forcing</p>
+</div>
+<br>
+
+![](visuals/scaling.png)
+
+****************************************************************
+
+## 🌐 Project Origin / 專案來源
+
+- 🛠️ **Original Source / 原始來源**：  
+  This project is based on the original repository [simplescaling/s1](https://github.com/simplescaling/s1) and has been modified for personal purposes.  
+  本專案基於原始專案 [simplescaling/s1](https://github.com/simplescaling/s1) 進行修改，以符合個人需求。  
+
+****************************************************************
+
+
+<div align="center">
+  <h1>s1: Simple test-time scaling</h1>
   <p>Minimal recipe for test-time scaling and strong reasoning performance matching o1-preview with just 1,000 examples & budget forcing
  </p>
 </div>
