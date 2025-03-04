@@ -60,9 +60,6 @@ def train():
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token = tokenizer.eos_token if tokenizer.eos_token else tokenizer.unk_token
         
-    if tokenizer.convert_tokens_to_ids(instruction_template.split()[0]) == tokenizer.unk_token_id:
-        instruction_template = "User: "
-        response_template = "Assistant: "
         
     # Only compute loss over assistant responses
     # Verified that it precisely starts where the thinking tokens start and ends with the first pad token
