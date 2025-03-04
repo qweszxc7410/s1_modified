@@ -5,7 +5,10 @@
 - 🛠️ **Original Source / 原始來源**：  
   This project is based on the original repository [simplescaling/s1](https://github.com/simplescaling/s1) and has been modified for personal purposes.  
   本專案基於原始專案 [simplescaling/s1](https://github.com/simplescaling/s1) 進行修改，以符合個人需求。  
-
+如果VRAM太小可更換模型為pythia-14m(需要1GB)
+```
+model_name: str = field(default="EleutherAI/pythia-14m")
+```
 ****************************************************************
 
 
